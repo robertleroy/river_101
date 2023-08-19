@@ -55,16 +55,29 @@
 </h3>
 <p>
   Water is massive.  <span class="strong_em">One cubic foot</span> of water holds about <span class="strong_em">8 gallons</span> and  weighs about <span class="strong_em">62 lbs.</span>
-  The water on the top layer pushes / weighs down on the layers below.  The bottom layer gets squished, out to the sides.  When it hits to the banks it pushes back towards the surface, sort of.  In turn that water gets shoved back to the center.  While the laminar flow moves downstream, the helical flow will corkscrew down the sides, maybe a third the way out depending on the width and volume of the river, relative to the river bed.  This is helical flow.  In flood stages this dynamic can increase dramatically.  It can difficult to get to shore in these conditions due to helical flow pushing out from the sides, back towards the center.  Normally you wouldn't really notice. 
+  The water on the top layer pushes / weighs down on the layers below.  The bottom layer gets squished, out to the sides.  When it hits to the banks it pushes back towards the surface, sort of.  In turn that water gets shoved back to the center.  While the laminar flow moves downstream, the helical flow will corkscrew down the sides, maybe a third the way out depending on the width and volume of the river, relative to the river bed.  This is helical flow.  In flood stages this dynamic can increase dramatically.  It can be difficult<small><em>, or worse,</em></small> to get to shore in these conditions due to helical flow pushing out from the sides, back towards the center.  Normally you wouldn't really notice. 
   </p>
   <p>This is a dynamic of rivers as well.</p>
 
 <h3 id="force">Volume and Force of Water: 
   <div class="subheader">Extra Credit topic...</div>
 </h3>
-<p>River volume is measured in Cubic Feet per Second: <dfn title="Cubic Feet per Second">'cfs'</dfn>.   Given a known / measured cross-section of river, volume is measured as width x depth x velocity.  The force of water is similar.  Force is mass x velocity.  We can multiply the cfs (volume) x 62 to get the mass.  500cfs is about 4,000 gallons or 30,000 lbs of water going by every second.
-  
-  When you increase the velocity the force increases exponentially.  Double the speed of a volume quadruples the force.</p>
+<p>River volume is measured in Cubic Feet per Second: <dfn title="Cubic Feet per Second">CFS</dfn>.
+  <br>
+  Given a known / measured cross-section of river, 
+  <br>
+  volume is measured as width x depth x velocity.  
+  <br><br>
+  The force of water is similar.  
+  <br>
+  Force is mass x velocity. 
+  <br><br>
+   We can multiply the cfs (volume) x 62 to get the mass.
+   <br>
+   500cfs is about 4,000 gallons or 30,000 lbs of water going by every second.
+  <br><br>
+  When you increase the velocity the force increases exponentially.  
+  <br>Double the speed of a volume quadruples the force.</p>
 
 
   <h4>Pounds of force:</h4>

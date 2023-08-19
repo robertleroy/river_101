@@ -242,7 +242,7 @@
       <dd>So will dipping the bow or stearn in.</dd>
       <dd>can be useful, can be fun.</dd>
       <dd>Play with it a bit, it will teach you.</dd>
-      <dd>I think eddys are the best beginner skill to master.</dd>
+      <dd>I think eddys are the best <s>beginner</s> skill to master.</dd>
     </dl>
 
     <br />
@@ -469,8 +469,8 @@
   <dl>
     <dt>Given a choice between bottles and cans</dt>
     <dd>choose cans.</dd>
-    <dd class="sub">I have a scar on my ankle from my first raft trip in 1985.</dd>
-    <br>
+    <dd class="sub">I have a scar on my ankle from bottles on my first raft trip in 1985.</dd>
+    <!-- <br> -->
     <dd class="sub">That raft has a scar too.. &emsp;<small><em>( patch )</em></small></dd>
   </dl>
 
@@ -532,7 +532,7 @@
       position: absolute;
       top: 12%;
       left: 4%;
-      z-index: 10;
+      z-index: 5;
 
       @media (min-width: 500px) {
         top: 16%;
