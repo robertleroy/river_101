@@ -127,7 +127,7 @@
       position: absolute;
       top: 0;
       left: 0;
-      z-index: 10;
+      z-index: 5;
     }
   }
   .desc { margin: 0 0 1rem 2ch}

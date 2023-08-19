@@ -43,7 +43,7 @@
       position: absolute;
       top: 40%;
       left: 45%;
-      z-index: 10;
+      z-index: 5;
       
       @media (min-width: 500px) {
         top: 65%;
