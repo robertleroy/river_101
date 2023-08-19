@@ -17,12 +17,16 @@
   <h3 id="x101" style="margin-top: 1rem">101:</h3>
 
   <dl>
-    <dt>Buddy System</dt>
-    <dd>
-      Boating alone is not a good idea.  Would I do it ... yes.  Not often, class 2, easy class 3 in late summer / fall.  Kayaking is easy to go to the put in and find a group to tag along with.  Have done that countless times.
-
-      You are going to need people to learn from and with.  I can't point you out really.  Mountainbuzz is a whitewater forum.  A bit of fishing talk goes on, but it is whitewater, and back in the day, they were pretty blunt about that.  I am pretty sure it has calmed down a bit since those days.  There are rafting clubs in the front range, I am sure there is a rafting/fishing one (drifters something?).  
-    </dd>
+    <h3>Buddy System</h3>
+      <p>
+        Boating alone is not a good idea.  Would I do it ... yes.  Not often, class 2, easy class 3 in late summer / fall.  Kayaking is easy to go to the put in and find a group to tag along with.  Have done that countless times.
+      </p>
+      <p>
+        I have to admit, rafting alone is different than kayaking alone..  Weigh the difficulty of the stretch of river, the current conditions, your skill and comfort level with the stretch..  I know fishermen do this all the time.  And that they spend inordinate amounts of time in big flat eddies.
+      </p>
+      <p>
+         You are going to need people to learn from and with.  I can't point you out really.  Mountainbuzz is a whitewater forum.  A bit of fishing talk goes on, but it is whitewater, and back in the day, they were pretty blunt about that.  I am pretty sure it has calmed down a bit since those days.  There are rafting clubs in the front range, I am sure there is a rafting/fishing one (drifters something?).  
+      </p>
 
     <br>
     
@@ -46,7 +50,7 @@
       &rbrace;
     </dd>
 
-    <br />
+    <br><br>
 
 
   <h3 id="swimming" style="margin-top: 1rem">Swimming 101:</h3>
@@ -55,7 +59,6 @@
     <dt>If you fall out of the boat...</dt>
     <dd>Get back in</dd>
     <dd>Practice it so that you know you can.</dd>
-
     <dd>Find the best technique for you.</dd>
 
     <br />

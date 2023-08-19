@@ -32,7 +32,9 @@ h1, h2, h3 {
   line-height: 1.2;
   margin: 0.5rem 0 0;
 }
-p { margin: 1em 0 1.5rem; }
+
+/* p:first-child { margin: 0 0 1rem; } */
+p { margin: 1rem 0 1rem; }
 ul, ol { list-style-position: inside; } 
 ul:not(ul ul), ol:not(ol ol) { padding-left: 0; }
 ul ul, ol ol { padding-left: 2ch; } 
