@@ -7,6 +7,8 @@
   import Menu from "$lib/components/Menu.svelte";
   import "./app.css";
   
+  $: console.log("$page.url.pathname:", $page.url.pathname);
+
   let test;
 
   let title = "River Stuff";
