@@ -84,14 +84,6 @@
         style="width: 100%; max-width: 700px;"
       />
     </dd>
-    <dd>
-      <small
-        ><em
-          >I disagree with the image calling out-flow ~ back-flow. That makes no
-          sense.</em
-        ></small
-      >
-    </dd>
 
     <br/>
 
