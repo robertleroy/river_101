@@ -39,105 +39,7 @@
     <img src={TunnelImg} alt="Tunnel Falls" class="tunnel_falls" />
   </div>
 
-  <h3 id="flows" style="margin-top: 0">
-    Laminar Flow:
-    <div class="subheader">Extra Credit topic...</div>
-  </h3>
-  <p>
-    Laminar flow describes fluid flowing in a straight smooth channel. Consider
-    a straight stretch of river with straight sides. The river will flow fastest
-    at the center, primarly due to it's relative depth. The flow will also be
-    faster just below the surface 🠖 friction from surface tension &
-    turbulance...
-  </p>
-  <p>
-    Flow is slowest at the bottom. Each 'layaer' above is faster, one sheet
-    moving on top of another. Think of a skateboard on a shallow slope that
-    moves @ 1 mph. If you put another skateboard on top it will move 1 mph for
-    the slope + 1 mph for the speed of the skateboard below. (These are really
-    long skateboards...). And so on. This is how water works, one layer greasing
-    the next and pushing down on the one below. When the volume increases, so
-    will the velocity, so will the force ~ exponentially.
-  </p>
-  <p>These are general dynamics of laminar flow</p>
 
-  <h3 id="helical">
-    Helical Flow:
-    <div class="subheader">Extra Credit topic...</div>
-  </h3>
-  <p>
-    The water on the top layer pushes / weighs down on the layers below. The
-    bottom layer gets squished, out to the sides. When it hits the banks it
-    pushes back towards the surface, sort of. In turn that water gets shoved
-    back to the center.
-  </p>
-  <p>
-    While the laminar flow moves downstream, the helical flow will corkscrew
-    down the sides, maybe a third the way out depending on the width and volume
-    of the river, relative to the river bed. This is helical flow.
-  </p>
-  <p>
-    In flood stages this dynamic can increase dramatically. It can be difficult<small
-      ><em>, or worse,</em></small
-    > to get to shore in these conditions due to helical flow pushing out from the
-    sides, back towards the center. Normally you wouldn't really notice.
-  </p>
-  <p>This is a dynamic of rivers as well.</p>
-
-  <!-- <h3>Mass of water:
-  <div class="subheader">Extra Credit topic...</div>
-</h3>
-
-<p>
-  Water is massive.  <br>
-  <span class="strong_em">One cubic foot</span> of water holds about <span class="strong_em">8 gallons</span> and  weighs about <span class="strong_em">62 lbs.</span>
-</p> -->
-
-  <h3 id="force">
-    Volume and Force of Water:
-    <div class="subheader">Extra Credit topic...</div>
-  </h3>
-
-  <p>
-    Water is massive. <br/>
-    <span class="strong_em">One cubic foot</span> of water holds about
-    <span class="strong_em">8 gallons</span>
-    and weighs about <span class="strong_em">62 lbs.</span>
-  </p>
-
-  <p>
-    River volume is measured in Cubic Feet per Second: <dfn
-      title="Cubic Feet per Second">CFS</dfn
-    >.
-    <br/>
-    Given a known / measured cross-section of river,
-    <br/>
-    volume is measured as width × depth × velocity.
-    <br/><br/>
-    The force of water is similar.
-    <br/>
-    Force is mass × velocity.
-    <br/><br/>
-    We can multiply the cfs (volume) × 62 to get the mass.
-    <br/>
-    500cfs is about 4,000 gallons or 30,000 lbs of water going by every second.
-    <br/><br/>
-    When you increase the velocity the force increases exponentially.
-    <br/>Double the speed of a volume quadruples the force.
-  </p>
-
-  <h4>Pounds of force:</h4>
-  <div class="table">
-    {#each forces as force}
-      <div class="cell velocity">{force.velocity}</div>
-      <div class="cell legs">{force.legs}</div>
-      <div class="cell body">{force.body}</div>
-      <div class="cell boat">{force.boat}</div>
-    {/each}
-    <cite>Ohio Department of Natural Resources, 1980</cite>
-  </div>
-
-  <br/>
 
   <h3 id="features">River Features and Terminology</h3>
 
@@ -441,6 +343,104 @@
     <dd>
       <img src={LowHead} alt="eddy" style="width: 100%; max-width: 700px;" />
     </dd>
+
+    <br><br>
+
+    <hr>
+    <br>
+
+
+    <h3 id="flows" style="margin-top: 0">
+      Flows <br><br>Laminar Flow:
+      <div class="subheader">Extra Credit topic...</div>
+    </h3>
+    <p>
+      Laminar flow describes fluid flowing in a straight smooth channel. Consider
+      a straight stretch of river with straight sides. The river will flow fastest
+      at the center, primarly due to it's relative depth. The flow will also be
+      faster just below the surface 🠖 friction from surface tension &
+      turbulance...
+    </p>
+    <p>
+      Flow is slowest at the bottom. Each 'layaer' above is faster, one sheet
+      moving on top of another. Think of a skateboard on a shallow slope that
+      moves @ 1 mph. If you put another skateboard on top it will move 1 mph for
+      the slope + 1 mph for the speed of the skateboard below. (These are really
+      long skateboards...). And so on. This is how water works, one layer greasing
+      the next and pushing down on the one below. When the volume increases, so
+      will the velocity, so will the force ~ exponentially.
+    </p>
+    <p>These are general dynamics of laminar flow</p>
+  
+    <h3 id="helical">
+      Helical Flow:
+      <div class="subheader">Extra Credit topic...</div>
+    </h3>
+    <p>
+      The water on the top layer pushes / weighs down on the layers below. The
+      bottom layer gets squished, out to the sides. When it hits the banks it
+      pushes back towards the surface, sort of. In turn that water gets shoved
+      back to the center.
+    </p>
+    <p>
+      While the laminar flow moves downstream, the helical flow will corkscrew
+      down the sides, maybe a third the way out depending on the width and volume
+      of the river, relative to the river bed. This is helical flow.
+    </p>
+    <p>
+      In flood stages this dynamic can increase dramatically. It can be difficult<small
+        ><em>, or worse,</em></small
+      > to get to shore in these conditions due to helical flow pushing out from the
+      sides, back towards the center. Normally you wouldn't really notice.
+    </p>
+    <p>This is a dynamic of rivers as well.</p>
+    
+  
+    <h3 id="force">
+      Volume and Force of Water:
+      <div class="subheader">Extra Credit topic...</div>
+    </h3>
+  
+    <p>
+      Water is massive. <br/>
+      <span class="strong_em">One cubic foot</span> of water holds about
+      <span class="strong_em">8 gallons</span>
+      and weighs about <span class="strong_em">62 lbs.</span>
+    </p>
+  
+    <p>
+      River volume is measured in Cubic Feet per Second: <dfn
+        title="Cubic Feet per Second">CFS</dfn
+      >.
+      <br/>
+      Given a known / measured cross-section of river,
+      <br/>
+      volume is measured as width × depth × velocity.
+      <br/><br/>
+      The force of water is similar.
+      <br/>
+      Force is mass × velocity.
+      <br/><br/>
+      We can multiply the cfs (volume) × 62 to get the mass.
+      <br/>
+      500cfs is about 4,000 gallons or 30,000 lbs of water going by every second.
+      <br/><br/>
+      When you increase the velocity the force increases exponentially.
+      <br/>Double the speed of a volume quadruples the force.
+    </p>
+  
+    <h4>Pounds of force:</h4>
+    <div class="table">
+      {#each forces as force}
+        <div class="cell velocity">{force.velocity}</div>
+        <div class="cell legs">{force.legs}</div>
+        <div class="cell body">{force.body}</div>
+        <div class="cell boat">{force.boat}</div>
+      {/each}
+      <cite>Ohio Department of Natural Resources, 1980</cite>
+    </div>
+  
+    <br/>
 
     <br/>
     <br/>

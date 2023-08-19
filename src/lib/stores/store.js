@@ -10,11 +10,11 @@ export const routes = writable([
     { name: "Miscellaneous", path: "#misc" },
   ]},
   { name: "River Dynamics", path: "/dynamics",  children: [
-    { name: "River Flows", path: "#flows" },
-    { name: "Force of Water", path: "#force" },
     { name: "Features", path: "#features" },
     { name: "Hazards: Strainers", path: "#strainers" },
     { name: "Hazards: Low Head Dams", path: "#low_head" },
+    { name: "River Flows", path: "#flows" },
+    { name: "Force of Water", path: "#force" },
     { name: "", path: "#" },
     { name: "", path: "#" },
   ]},
