@@ -6,7 +6,7 @@ const config = {
   kit: {
     adapter: adapter(),
     paths: {
-      base: process.env.NODE_ENV === 'production' ? '/REPO_NAME' : '',
+      base: process.env.NODE_ENV === 'production' ? '/river_101' : '',
     }
   },
   extensions: [".svelte", ".svelte.md", ".md", ".svx"],

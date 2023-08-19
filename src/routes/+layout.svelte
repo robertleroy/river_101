@@ -48,7 +48,7 @@
   <nav class="sidenav">
     {#each $routes as route}
       <div class="route" on:keypress on:click={() => test = route.name }
-           class:currentRoute={$page.url.pathname === route.path}>
+           class:currentRoute={$page.url.pathname === base + route.path}>
 
         <a href={base}{route.path} 
            on:click="{() => sidebarOpen = false}">
@@ -56,7 +56,7 @@
         </a>
 
         <!-- #region children -->
-        {#if $page.url.pathname === base + route.path && route.children}
+        {#if $page.url.pathname === route.path && route.children}
         <div class="child" 
           transition:slide="{{ duration: 300 }}">
 
