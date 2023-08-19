@@ -40,7 +40,7 @@
 
     <br>
 
-    <dd>
+    <dd style="font-style: italic; color: slategray; text-shadow: 1px 1px 6px hsl(34,78%,80%);">
       &lbrace; 
       More thoughts on mellow places to get started - and a run down on the pitfalls I see everyone go through their first week on the river - to come. 
       &rbrace;

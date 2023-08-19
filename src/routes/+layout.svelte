@@ -56,7 +56,7 @@
         </a>
 
         <!-- #region children -->
-        {#if $page.url.pathname === route.path && route.children}
+        {#if $page.url.pathname === base + route.path && route.children}
         <div class="child" 
           transition:slide="{{ duration: 300 }}">
 
