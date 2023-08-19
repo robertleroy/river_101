@@ -56,7 +56,9 @@
     { 
       category: 'Misc', 
       items: [
-        { name: 'Knots', path: 'http://localhost:5173/src/lib/PrimerOnKNots.pdf', desc: "Knots pdf" },
+        // { name: 'Knots', path: 'http://localhost:5173/src/lib/PrimerOnKNots.pdf', desc: "Knots pdf" },
+        
+        { name: 'Knots', path: 'https://github.com/robertleroy/river_101/blob/main/src/lib/PrimerOnKnots.pdf', desc: "Knots pdf" },
       ]
     },
   ];
