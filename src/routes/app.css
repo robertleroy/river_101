@@ -183,6 +183,8 @@ dd img {
   margin-top: 0.5rem;
 }
 
+/* cite { line-height: 0;} */
+
 @media (min-width: 900px) {
   :root { --sidebar-width: 300px; }
   .navbar { display: flex; }
