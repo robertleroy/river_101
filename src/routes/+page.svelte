@@ -89,7 +89,7 @@
           href="https://olympics.com/en/athletes/mark-spitz"
           target="_blank"
           rel="noopener noreferrer">...1972 Olympics reference</a
-        >
+        > &emsp; ie. swim real fast
       </em>
    </dd>
     <br />
@@ -101,7 +101,8 @@
     <dd>I am going to get out as quick as possible</dd>
     <dd class="sub">Unless I am having fun.</dd>
     <br>
-    <dd class="sub"><em>it was somewhat common for me to see customers gasping when entering cold water. For some reason it was that they were not exhaling.  Just linked inhales... , so only half of breathing.  It dosen't work that way.  If you find this type of distress... be mindful of exhaling.  Can have very calming / centering effect</em>.</dd>
+    <dd class="sub"><em>it was somewhat common for me to see customers gasping when entering cold water. For some reason they would just start inhaling... no exhaling.  Just linked inhales... , so only half of breathing.  It dosen't work that way.  If you find this type of distress... be mindful of exhaling.  Can have very calming / centering effect</em>.</dd>
+
     <br>
   </dl>
 
@@ -121,7 +122,7 @@
   <h3 id="boating">Boating 101:</h3>
   <dl>
     <dt>Always wear a lifejacket, zipped up:</dt>
-    <dd>State Law</dd>
+    <dd><strong>Colorado State Law</strong></dd>
     <dd>Good idea</dd>
     <dd>Make it a personal value.</dd>
     <dd>Passengers too.</dd>
@@ -141,13 +142,15 @@
         >If your habit is 'only when I need too', 
         <br>
          will you forget to when you
-        need it?</em
-      >
+        need it?</em>
+        
    </dd> 
    <br>
-   
-  </dl>
 
+   <dd>Utah has a flat water exception.</dd>
+   <br>
+  </dl>
+    
   <dl>
     <dt>Rowing</dt>
     <dd>Pulling is way faster / stronger than pushing</dd>
