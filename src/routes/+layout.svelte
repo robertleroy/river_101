@@ -1,13 +1,10 @@
 <script>
-  import { base } from '$app/paths';
   import { fade, slide } from 'svelte/transition';  
   import { page } from '$app/stores';
   import { routes } from '$lib/stores/store';
   import Logo from '$lib/components/Logo.svelte';
   import Menu from "$lib/components/Menu.svelte";
   import "./app.css";
-  
-  $: console.log("$page.url.pathname:", $page.url.pathname);
 
   let test;
 
@@ -27,7 +24,7 @@
 
 <header>
   <div class="flex">
-    <a href="{base}/" class="title" class:offline={!online}>
+    <a href="/" class="title" class:offline={!online}>
       <Logo offline={!online}/>
       
       <h1>{online ? title : 'Offline' }</h1>{innerWidth}
@@ -38,8 +35,8 @@
 
     <nav class="navbar">
       {#each $routes as route}
-        <div class="route" class:currentRoute={$page.url.pathname === base + route.path}>
-          <a href={base}{route.path}>{route.name}</a>
+        <div class="route" class:currentRoute={$page.url.pathname === route.path}>
+          <a href={route.path}>{route.name}</a>
         </div>
       {/each}
     </nav>
@@ -50,24 +47,24 @@
   <nav class="sidenav">
     {#each $routes as route}
       <div class="route" on:keypress on:click={() => test = route.name }
-           class:currentRoute={$page.url.pathname === base + route.path}>
+           class:currentRoute={$page.url.pathname === route.path || $page.url.pathname + "/" === route.path}>
 
-        <a href={base}{route.path} 
+        <a href={route.path} 
            on:click="{() => sidebarOpen = false}">
           {route.name}
         </a>
 
         <!-- #region children -->
-        {#if $page.url.pathname === base + route.path && route.children}
+        {#if $page.url.pathname === route.path && route.children}
         <div class="child" 
           transition:slide="{{ duration: 300 }}">
 
           {#each route.children as child}
           <div class="route" 
                style:color="initial" 
-               class:currentRoute={$page.url.hash.includes(base + child.path)} >
+               class:currentRoute={$page.url.hash.includes(child.path)} >
 
-            <a href={base}{child.path}
+            <a href={child.path}
                on:click="{() => sidebarOpen = false}">
               {child.name}  
             </a>
