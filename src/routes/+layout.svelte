@@ -25,7 +25,7 @@
 
 <header>
   <div class="flex">
-    <a href="{base}/" class="title" class:offline={!online}>
+    <a href="/" class="title" class:offline={!online}>
       <Logo offline={!online}/>
       
       <h1>{online ? title : 'Offline' }</h1>{innerWidth}
@@ -36,8 +36,8 @@
 
     <nav class="navbar">
       {#each $routes as route}
-        <div class="route" class:currentRoute={base + $page.url.pathname === route.path}>
-          <a href={base}{route.path}>{route.name}</a>
+        <div class="route" class:currentRoute={$page.url.pathname === route.path}>
+          <a href={route.path}>{route.name}</a>
         </div>
       {/each}
     </nav>
@@ -48,9 +48,9 @@
   <nav class="sidenav">
     {#each $routes as route}
       <div class="route" on:keypress on:click={() => test = route.name }
-           class:currentRoute={$page.url.pathname === base + route.path}>
+           class:currentRoute={$page.url.pathname === route.path}>
 
-        <a href={base}{route.path} 
+        <a href={route.path} 
            on:click="{() => sidebarOpen = false}">
           {route.name}
         </a>
@@ -65,7 +65,7 @@
                style:color="initial" 
                class:currentRoute={$page.url.hash.includes(child.path)} >
 
-            <a href={base}{child.path}
+            <a href={child.path}
                on:click="{() => sidebarOpen = false}">
               {child.name}  
             </a>
