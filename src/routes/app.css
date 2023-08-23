@@ -183,6 +183,9 @@ dd img {
   margin-top: 0.5rem;
 }
 
+.indent { margin-left: 2rem; }
+.sidenote { font-size: 0.9em; padding: 0 1ch; }
+
 /* cite { line-height: 0;} */
 
 @media (min-width: 900px) {

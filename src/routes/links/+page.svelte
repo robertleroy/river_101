@@ -59,6 +59,8 @@
         // { name: 'Knots', path: 'http://localhost:5173/src/lib/PrimerOnKNots.pdf', desc: "Knots pdf" },
         
         { name: 'Knots', path: 'https://github.com/robertleroy/river_101/blob/main/src/lib/PrimerOnKnots.pdf', desc: "Knots pdf" },
+        { name: "Upper Colorado River BLM Map", path: "https://www.blm.gov/sites/default/files/docs/2021-07/Upper_CO_River_20190716.pdf", desc: "Upper C pdf map"},
+        { name: "Upper Colorado River Rec Guide", path: "https://blm-egis.maps.arcgis.com/apps/MapJournal/index.html?appid=8c49def5acd34631a1f135880937e84e", desc: "More Upper C BLM info map"}
       ]
     },
   ];
@@ -77,7 +79,7 @@
     {#each myLinks as myLink (myLink.category)}
     <Accordion >
       <svelte:fragment slot="header">
-        {myLink.category}
+        <div class="link">{myLink.category}</div>
       </svelte:fragment>
 
       <svelte:fragment>
@@ -92,18 +94,19 @@
     {/each}
 
 
-    <div class="todo" style:color="tomato">
+    <!-- <div class="todo" style:color="tomato">
       <h4>Todo</h4>
       <ul style:margin="0">
         <ol>Change localhost link for knots pdf to match deployment url</ol>
       </ul>
-    </div>
+    </div> -->
   </section>
 
 
 </div>
 
 <style lang='postcss'>
+  .link:not(:active) { text-decoration: underline dotted; }
   .choinard {
     position: relative;
     width: 150px;
