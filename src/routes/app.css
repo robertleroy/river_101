@@ -173,7 +173,13 @@ dl {
 a.underline {
   text-decoration: underline dotted;
 }
-
+blockquote { 
+  max-width: 250px; 
+  margin-bottom: 2rem; 
+}
+blockquote cite {
+  float: right;
+}
 
 dt { 
   font-size: 1.1em;
@@ -183,7 +189,7 @@ dd img {
   margin-top: 0.5rem;
 }
 
-.indent { margin-left: 2rem; }
+.indent { margin-left: 1rem; }
 .sidenote { font-size: 0.9em; padding: 0 1ch; }
 
 /* cite { line-height: 0;} */

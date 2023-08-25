@@ -61,6 +61,9 @@
     <dd>
       When the current goes around an obsticle, the void behind draws water back
       in.
+      <blockquote>Nature hates a vaccuum 
+        <br>
+        <cite>- Aristotle</cite></blockquote>
     </dd>
     <!-- <dd>Distinguished by currents circling back up</dd> -->
     <dd>
@@ -89,16 +92,26 @@
 
     <dt>Pillow or Compression Wave</dt>
     <dd>
-      The high pressure zone on the front of obsticles (rocks, et al.). Water
-      will shed to one side or the other. Some of the water will pile up on
-      itself and push back upstream. This is the pillow. It is surfable
-      sometimes, can even be used to avoid a rock.
+      The high pressure zone on the front of obsticles (rocks, et al.). 
+    </dd>
+    <dd>
+      Water will shed to one side or the other. 
+    </dd>
+    <dd>
+      Some of the water will pile up on itself and push back upstream. This is the pillow.
+    </dd>
+    <dd>
+      It is surfable sometimes, can even be used to avoid a rock.
     </dd>
     <br/>
     <dd>
       It is also the force (high-pressure) that keeps a raft pinned (wrapped).
+    </dd>
+    <dd>
       If a raft broaches a rock, such that the pillow wave is displaced from the
-      rock onto the raft, That is a whole lot of pressure pasting the raft to
+      rock onto the raft,
+      <br>
+       That is a whole lot of pressure pasting the raft to
       the rock.
     </dd>
     <br/>
@@ -117,7 +130,7 @@
       the pillow back onto the rock. <br/>
       Sometimes... you can peel an edge up enough to let the pillow wave back under
       the raft 🠖 onto the rock. <br/>
-      This can make un-wrapping seem magically easy. Sometimes...
+      This can make un-wrapping seem magically easy. Sometimes...  
     </dd>
 
     <br/>
@@ -167,8 +180,7 @@
     <dd>
       <br/>
       <cite
-        >If you can't see all these v's, squint your eyes, imagine harder..</cite
-      >
+        >If you can't see all these v's, squint your eyes, imagine harder..</cite> 
       <img src={V_1} alt="v_1" style="width: 100%; max-width: 700px;" />
       <img src={V_2} alt="v_2" style="width: 100%; max-width: 700px;" />
     </dd>
@@ -222,7 +234,7 @@
     </dd>
     <br/>
     <dd>
-      <cite>Skull Rapid, Westwater Canyon at very high flows</cite>
+      <cite>Skull Rapid at very high flows - Westwater Canyon</cite>
       <img
         src={Lateral}
         alt="lateral_2"
@@ -354,7 +366,7 @@
       turbulance...
     </p>
     <p>
-      Flow is slowest at the bottom. Each 'layaer' above is faster, one sheet
+      Flow is slower at the bottom. Each layer above is faster, one sheet
       moving on top of another. Think of a skateboard on a shallow slope that
       moves @ 1 mph. If you put another skateboard on top it will move 1 mph for
       the slope + 1 mph for the speed of the skateboard below. (These are really
@@ -380,9 +392,9 @@
       of the river, relative to the river bed. This is helical flow.
     </p>
     <p>
-      In flood stages this dynamic can increase dramatically. It can be difficult<small
-        ><em>, or worse,</em></small
-      > to get to shore in these conditions due to helical flow pushing out from the
+      In flood stages this dynamic can increase dramatically. 
+      It can be difficult<small><em>, or worse,</em></small> 
+      to get to shore in these conditions due to helical flow pushing out from the
       sides, back towards the center. Normally you wouldn't really notice.
     </p>
     <p>This is a dynamic of rivers as well.</p>
@@ -402,18 +414,15 @@
   
     <p>
       River volume is measured in Cubic Feet per Second: <dfn
-        title="Cubic Feet per Second">CFS</dfn
-      >.
+        title="Cubic Feet per Second">CFS</dfn>.
       <br/>
       Given a known / measured cross-section of river,
       <br/>
       volume is measured as width × depth × velocity.
       <br/><br/>
-      The force of water is similar.
-      <br/>
       Force is mass × velocity.
       <br/><br/>
-      We can multiply the cfs (volume) × 62 to get the mass.
+      We can multiply the cfs (volume) × <span class="strong_em">62 lbs.</span> to get the mass.
       <br/>
       500cfs is about 4,000 gallons or 30,000 lbs of water going by every second.
       <br/><br/>
@@ -441,12 +450,10 @@
 
     <!-- <dd>
       Parting shot from Rabbit Valley <br>
-      <img src="src/lib/images/rabbit_valley.png" alt="rabbit_valley" style="width:100%; max-width: 700px;">
+      <img src="src/lib/images/rabbit_valley.png" 
+      alt="rabbit_valley" style="width:100%; max-width: 700px;">
     </dd> -->
 
-    <!-- <div class="frame">
-      <img src="src/lib/images/rabbit_valley.png" alt="rabbit_valley" class="choinard" />
-    </div> -->
   </dl>
 </div>
 
