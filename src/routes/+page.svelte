@@ -15,7 +15,30 @@
   <h3 id="x101" style="margin-top: 1rem">101:</h3>
 
   <h3>Buddy System</h3>
+  <br>
+  <code>Edit</code>
+  <br>
+  <div><em>Tempering solo boating statement.  Nothing wrong with going for a float. <br>
+    The culture I come from was more aggressive and safety oriented. <br>
+    Be conservative while you get your legs under you.  </em></div>
+
+  <p>Kayaking was easy to go to the put in and find people to boat with. <br>
+    Have done that countless times.  <br>
+    Popular rafting runs will be the same. </p>
+
   <p>
+    I think you will need people to learn from and with. I can't point you out
+    really. Mountainbuzz is a whitewater forum. A bit of fishing talk goes on,
+    but it is whitewater, and back in the day, they were pretty blunt about
+    that. I am pretty sure it has calmed down a bit since those days. There
+    are rafting clubs in the front range, I am sure there is a rafting/fishing
+    one (drifters something?). 
+    <br><br> 
+    I bet any fishing shop would know, or the guys at Downriver Equipment. <br>
+    Actually Downriver would be a great resource for that.
+  </p>
+
+  <!-- <p>
     Boating alone is not a good idea. Would I do it... yes. Not often, class
     2, easy class 3 in late summer / fall. Kayaking is easy to go to the put
     in and find a group to tag along with. Have done that countless times.
@@ -37,13 +60,13 @@
     Actually Downriver Equipment would be a great resource for that.
   </p>
 
-  <br />
+  <br /> -->
 
-  <p>
+  <!-- <p>
     Go super easy and get some miles under your belt before you push it. I bet
     if you sat in the parking lot up at Deckers on a weekend you would meet
     fairly quickly.
-  </p>
+  </p> -->
 
   <br />
   <h3 id="swimming" style="margin-top: 1rem">Swimming 101:</h3>
