@@ -32,7 +32,9 @@
     but it is whitewater, and back in the day, they were pretty blunt about
     that. I am pretty sure it has calmed down a bit since those days. There
     are rafting clubs in the front range, I am sure there is a rafting/fishing
-    one (drifters something?).
+    one (drifters something?).  
+    I bet any fishing shop would know, or the guys at Downriver Equipment. 
+    Actually Downriver Equipment would be a great resource for that.
   </p>
 
   <br />
@@ -40,7 +42,7 @@
   <p>
     Go super easy and get some miles under your belt before you push it. I bet
     if you sat in the parking lot up at Deckers on a weekend you would meet
-    people quickly.
+    fairly quickly.
   </p>
 
   <br />
