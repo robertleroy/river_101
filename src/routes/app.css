@@ -107,7 +107,9 @@ main {
   transition: margin var(--duration);
 }
 .router { position: absolute; width: 100%; }
-
+.link:not(:active) {
+  text-decoration: underline dotted;
+}
 .page {
   max-width: 960px;
   /* max-width: 50em; */

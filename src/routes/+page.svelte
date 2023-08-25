@@ -38,6 +38,8 @@
     Actually Downriver would be a great resource for that.
   </p>
 
+  <div style="color: dodgerblue"><em><a class='link' href="/week_1">Getting your legs under you 🡒</a></em></div>
+
   <!-- <p>
     Boating alone is not a good idea. Would I do it... yes. Not often, class
     2, easy class 3 in late summer / fall. Kayaking is easy to go to the put
