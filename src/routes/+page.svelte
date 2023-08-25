@@ -452,7 +452,7 @@
 
     <br />
     <dt>Pliers, screwdriver, knife - Leatherman is a beautiful thing</dt>
-
+    <dd>Whatever you need should your frame need.. adjustment.</dd>
     <dd>Should have a 60ft throw rope.. handy for a million things.</dd>
     <dd class="sub">rescue, drying clothes, the bucket game....</dd>
     <dd class="sub">extending bow line for tying off raft...</dd>
