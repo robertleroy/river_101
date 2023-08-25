@@ -1,5 +1,5 @@
 <script>
-  import Delores from "$lib/images/f-street-kayaks.png";
+  import Delores from "$lib/images/delores2.png";
   let title = 'About';
 </script>
 

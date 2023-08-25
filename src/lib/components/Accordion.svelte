@@ -26,7 +26,7 @@
 
 
 <style>
-	.shell { padding: 0.5rem 0; }
+	.shell { padding: 1rem 0; border-bottom: 1px solid hsl(210,30%,90%);}
 	.header {
 		cursor: pointer; 
 		font-size: 1em;
