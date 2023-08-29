@@ -8,7 +8,7 @@
 
   let test;
 
-  let title = "River Stuff";
+  let title = "River 101";
   let sidebarOpen = false;
   let innerWidth;
   let online = true;
@@ -27,7 +27,7 @@
     <a href="/" class="title" class:offline={!online}>
       <Logo offline={!online}/>
       
-      <h1>{online ? title : 'Offline' }</h1>innerWidth<sub>px</sub>
+      <h1>{online ? title : 'Offline' }</h1>{innerWidth}<sub>px</sub>
     </a>
 
     <Menu toggle={sidebarOpen} 
