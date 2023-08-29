@@ -295,7 +295,7 @@
   </ul>
 
   <p>These runs are good for starting.  You will meet some people and expand your range soon enough. </p>
-  <p>There are certainly other options out there.  The Lower Lower Eagle you know.  Lower Roaring fork as I recall is class 2, but technical in areas (that means rocky).  I am sure I kayaked it once, and I was a client on a commercial fly fishing boat there once.  Didn't catch anything but I did learn how to whip the stick thing with the string on it around a little bit.  There are several class 2 sections of the Arkansas; Milk Run, Above Salida, Salida - Rincon..</p>
+  <p>There are certainly other options out there.  The Lower Lower Eagle you know.  Lower Roaring fork as I recall is class 2, but technical in areas (that means rocky).  I am sure I kayaked it once, and I was a client on a commercial fly fishing boat there once.  Didn't catch anything but I did learn how to whip the stick thing with the string on it around a little bit.  There are several class 2 sections of the Arkansas; Milk Run, Above Salida, Salida - Rincon...</p>
 
 
   <br>

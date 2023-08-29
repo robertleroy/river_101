@@ -27,7 +27,7 @@
     <a href="/" class="title" class:offline={!online}>
       <Logo offline={!online}/>
       
-      <h1>{online ? title : 'Offline' }</h1>{innerWidth}
+      <h1>{online ? title : 'Offline' }</h1>innerWidth<sub>px</sub>
     </a>
 
     <Menu toggle={sidebarOpen} 
