@@ -13,7 +13,6 @@
   let innerWidth;
   let online = true;
 
-  // $: console.log($page);
   $: innerWidth > 899 ? (sidebarOpen = false) : "";
 </script>
 
@@ -27,7 +26,7 @@
     <a href="/" class="title" class:offline={!online}>
       <Logo offline={!online}/>
       
-      <h1>{online ? title : 'Offline' }</h1>{innerWidth}<sub>px</sub>
+      <h1>{online ? title : 'Offline' }</h1>
     </a>
 
     <Menu toggle={sidebarOpen} 
